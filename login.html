@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #2c33c6, #a137d2);
+      height: 100vh;
+    }
+    #login {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%;
+      border-radius: 10px;
+      justify-content: center;
+      background: #fff;
+      margin: 75px auto;
+      height: 80vh;
+    }
+
+    #login input {
+      padding: 20px;
+      margin: 5px;
+      width: 75%;
+      border: none;
+      border-bottom: 2px solid gray;
+    }
+    #login div {
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+    }
+    #login div > p span {
+      color: #2c33c6;
+      font-weight: bolder;
+    }
+
+    #btm {
+      width: 85%;
+      padding: 25px;
+      color: #fff;
+      margin: 30px 0;
+      background: linear-gradient(to bottom right, #2c33c6, #a137d2);
+      border: none;
+    }
+  </style>
+  <body>
+    <div id="login">
+      <h1>Login</h1>
+      <input type="text" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button id="btm">Login</button>
+      <div>
+        <p>Forgot<span> Password</span></p>
+        <p>Don't have an account<span> Sign up</span></p>
+      </div>
+    </div>
+  </body>
+</html>
